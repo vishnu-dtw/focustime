@@ -7,10 +7,6 @@ import { Countdown } from './src/components/countdown';
 import { Timer } from './src/Features/timer';
 import { FocusHistory } from './src/Features/focushistory';
 
-
-
-
-
 export default function App() {
   const [currentSubject,setCurrentSubject] = useState ();
   const [history, setHistory] = useState([]);
